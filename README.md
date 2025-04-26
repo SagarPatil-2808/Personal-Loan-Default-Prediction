@@ -2,6 +2,8 @@
 
 Welcome to the **Loan Default Prediction App**, a Streamlit-based web application that predicts whether a loan applicant is likely to default based on key financial and personal details.
 
+🔗 **Live Demo:** [Personal Loan Default Prediction App](https://personal-loan-default-prediction.streamlit.app/)
+
 ---
 
 ## 🌟 Features
