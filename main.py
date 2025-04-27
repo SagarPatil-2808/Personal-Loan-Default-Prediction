@@ -110,7 +110,8 @@ if submitted:
     proba = model.predict_proba(input_df)[:,1][0]
     st.write(f"**Default Probability:** {proba:.2%}")
     if proba < 0.5:
-        st.success("Eligible for loan.")
+        st.success("✅ Low Risk: Applicant is likely eligible for the loan.")
     else:
-        st.error("High risk of default.")
+        st.error("⚠️ High Risk: Applicant may default. Further review needed.")
+
 
